@@ -14,8 +14,8 @@ export default function ItemList({ posts, projects }) {
                         <h4 className="my-3 pt-1 font-weight-bold">Recent Articles</h4>
                         {posts.map((post) => {
                             return (
-                                <div className="link-wrapper my-2 py-2 px-1">
-                                    <Link key={post.slug} href={{ pathname: `/post/${post.slug}` }}>
+                                <div key={post.slug} className="link-wrapper my-2 py-2 px-1">
+                                    <Link href={{ pathname: `/post/${post.slug}` }}>
                                         <a>
                                             <Row className=" d-flex flex-row align-items-center">
                                                 <Col xs="auto">
@@ -44,8 +44,8 @@ export default function ItemList({ posts, projects }) {
                         <h4 className="my-3 py-1 font-weight-bold">Selected Work</h4>
                         {projects.map((project, index) => {
                             return (
-                                <div className="link-wrapper my-2 px-1">
-                                    <Link key={project.slug} href={`#${index}`}>
+                                <div key={project.slug} className="link-wrapper my-2 px-1">
+                                    <Link href={`#${index}`}>
                                         <a>
                                             <Row className=" d-flex flex-row align-items-center my-2">
                                                 <Col xs="auto">
