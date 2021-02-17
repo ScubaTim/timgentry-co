@@ -36,7 +36,7 @@ export default function Header({ theme, themeToggler }) {
                                         <h5 className="font-weight-bold">Full Stack Developer</h5>
                                     </li>
                                     <li>
-                                        <h5 className="font-weight-bold">Mail@Timgentry.co</h5>
+                                        <h5 className="font-weight-bold">Mail@Timgentry.dev</h5>
                                     </li>
                                     <li>
                                         <h5 className="font-weight-bold"><a href="https://www.linkedin.com/in/timhgentry/" alt="LinkedIn">LinkedIn</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;
@@ -48,7 +48,7 @@ export default function Header({ theme, themeToggler }) {
                                         <h5 className="font-weight-bolder" >Full Stack Developer</h5>
                                     </li>
                                     <li>
-                                        <h6>Mail@Timgentry.co</h6>
+                                        <h6>Mail@Timgentry.dev</h6>
                                     </li>
                                     <li>
                                         <h6 ><a href="https://www.linkedin.com/in/timhgentry/" alt="LinkedIn">LinkedIn</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;

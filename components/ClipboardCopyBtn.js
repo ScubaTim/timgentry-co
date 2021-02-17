@@ -7,14 +7,14 @@ const ClipboardCopyBtn = (text, block) => {
     if (block) {
         return (
             <Button outline block onClick={() => handleCopy(text)}>
-                {isCopied ? 'Copied to Clipboard' : 'Mail@Timgentry.co'}
+                {isCopied ? 'COPIED TO CLIPBOARD' : 'MAIL@TIMGENTRY.DEV'}
             </Button>
         )
     }
 
     return (
         <Button outline onClick={() => handleCopy(text)}>
-            {isCopied ? 'Copied to Clipboard' : 'Mail@Timgentry.co'}
+            {isCopied ? 'COPIED TO CLIPBOARD' : 'MAIL@TIMGENTRY.DEV'}
         </Button>
     );
 };

@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from 'reactstrap'
 import ClipboardCopyBtn from './ClipboardCopyBtn';
 
-const Bio = ({ darkMode }) => {
+const Bio = () => {
     return (
         <>
             <hr />
@@ -54,13 +54,13 @@ const Bio = ({ darkMode }) => {
                             <h5 className="my-4 font-weight-bold">Contact</h5>
                             <ul className="px-1">
                                 <li className="">
-                                    <ClipboardCopyBtn id="clipboardCopy" block >MAIL@TIMGENTRY.CO</ClipboardCopyBtn>
+                                    <ClipboardCopyBtn id="clipboardCopy" block >MAIL@TIMGENTRY.DEV</ClipboardCopyBtn>
                                 </li>
                                 <li className="my-2">
-                                    <Button href='https://www.linkedin.com/in/timhgentry/' outline block >LinkedIn</Button>
+                                    <Button href='https://www.linkedin.com/in/timhgentry/' outline block >LINKEDIN</Button>
                                 </li>
                                 <li className="my-2">
-                                    <Button href='https://github.com/ScubaTim' outline block >Github</Button>
+                                    <Button href='https://github.com/ScubaTim' outline block >GITHUB</Button>
                                 </li>
                             </ul>
                         </Col>
@@ -85,13 +85,13 @@ const Bio = ({ darkMode }) => {
                                     <div>
                                         <ul className="px-0 mt-3">
                                             <li>
-                                                <ClipboardCopyBtn>MAIL@TIMGENTRY.CO</ClipboardCopyBtn>
+                                                <ClipboardCopyBtn>MAIL@TIMGENTRY.DEV</ClipboardCopyBtn>
                                             </li>
                                             <li className="my-2">
-                                                <Button href='https://github.com/ScubaTim' outline >Github</Button>
+                                                <Button href='https://github.com/ScubaTim' outline >GITHUB</Button>
                                             </li>
                                             <li>
-                                                <Button href='https://www.linkedin.com/in/timhgentry/' outline >LinkedIn</Button>
+                                                <Button href='https://www.linkedin.com/in/timhgentry/' outline >LINKEDIN</Button>
                                             </li>
                                         </ul>
                                     </div>
