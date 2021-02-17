@@ -1,8 +1,8 @@
 ---
 title: 'Gardenly'
 author: 'Tim Gentry'
-imageLg: '/static/gardenly1.png'
-smImages: ['/static/gardenly2.png', '/static/gardenly3.png']
+imageLg: '/static/Gardenly1.png'
+smImages: ['/static/Gardenly2.png', '/static/Gardenly3.png']
 shortDesc: "Gardener's assistant app"
 tech: ['Bcrypt', 'JSON Web Tokens', 'MongoDB', 'Mongoose', 'React', 'Redux', 'Express', 'Axios', 'Node', 'Heroku']
 link: "http://garden-ly.herokuapp.com/"
