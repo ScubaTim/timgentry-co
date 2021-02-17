@@ -1,8 +1,8 @@
 ---
 title: "Corbett's Sports Bar"
 author: 'Tim Gentry'
-imageLg: '/static/Corbetts1.png'
-smImages: ['/static/Corbetts2.png', '/static/Corbetts3.png']
+imageLg: '/static/corbetts1.png'
+smImages: ['/static/corbetts2.png', '/static/corbetts3.png']
 shortDesc: "Sports bar and grill"
 tech: ["React", "Jest", "Enzyme", "Axios", "Github-Pages"]
 link: "https://www.corbettssportsbarmiami.com/"

@@ -1,8 +1,8 @@
 ---
 title: 'TakeNote'
 author: 'Tim Gentry'
-imageLg: '/static/Takenote1.png'
-smImages: ['/static/Takenote2.png', '/static/Takenote3.png']
+imageLg: '/static/takenote1.png'
+smImages: ['/static/takenote2.png', '/static/takenote3.png']
 shortDesc: "Full stack note taking app"
 link: "https://take--note.herokuapp.com/"
 tech: ['MongoDB', 'Mongoose', 'React', 'Express', 'Axios', 'Node', 'Heroku']
