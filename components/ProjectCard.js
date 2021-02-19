@@ -54,11 +54,11 @@ const ProjectCard = ({ title, shortDesc, imageLg, smImages, markdown, link, tech
             </Row>
             <Row className="d-flex justify-content-center align-items-center m-0 p-0 pt-2" >
                 <Col xs="12" className={`d-flex justify-content-center align-items-center imgContainer mt-1 mx-3 mb-3 px-3  py-4`}>
-                    <Image width="875" height="504" src={imageLg} alt={title} />
+                    <Image width="875" height="504" src={imageLg} alt={title} priority />
                 </Col>
                 {smImages.map((el, i) => (
                     <Col className={`d-flex justify-content-center align-items-center imgContainer px-3 py-4 ${i === 0 ? `mr-3` : ``} `} key={i} >
-                        <Image width="212" height="428" src={el} alt={title} />
+                        <Image width="212" height="428" src={el} alt={title} priority />
                     </Col>
                 ))}
             </Row>
