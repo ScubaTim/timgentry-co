@@ -13,6 +13,12 @@ export const GlobalStyles = createGlobalStyle`
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+      background-color: ${({ theme }) => theme.imgContainerColor};
+      padding: 0.35rem 0.4rem 0.1rem 0.5rem;
+      font-size: 90%;
+      font-weight: 600;
+      color: #e959ad !important;
+      border-radius: 4px;
   }
   a {
       color: ${({ theme }) => theme.link};
@@ -82,5 +88,17 @@ export const GlobalStyles = createGlobalStyle`
     a {
       text-decoration: none !important;
     }
+  }
+  .article-container {
+    line-height: 2;
+    font-size: 1.09rem;
+    font-weight: 400;
+    li {
+      list-style: circle;
+    }
+    h2 {
+      padding: 2rem 0 0.5rem 0;
+    }
+ 
   }
   `

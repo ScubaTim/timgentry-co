@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 
 import Layout from '../../components/Layout'
 
@@ -11,16 +11,20 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody, theme, 
     return (
         <Layout themeToggler={themeToggler} theme={theme} pageTitle={`${siteTitle} | ${frontmatter.title}`}>
             <Link href="/">
-                <a style={{ textDecoration: "none" }} className="d-flex flex-row align-items-center mx-4"><span style={{ fontSize: "2rem" }}>&#8672;</span>&nbsp;BACK</a>
+                <a style={{ textDecoration: "none" }} className="d-flex flex-row align-items-center mx-3"><span style={{ fontSize: "2rem" }}>&#8672;</span>&nbsp;BACK</a>
             </Link>
             <Container className="mt-4 mb-5 pb-5">
-                <article>
-                    <h1>{frontmatter.title}</h1>
-                    <p>By {frontmatter.author}</p>
-                    <div >
-                        <ReactMarkdown source={markdownBody} />
-                    </div>
-                </article>
+                <Row>
+                    <Col className="mx-auto" xs="12" sm="10" xl="8">
+                        <article>
+                            <h1 className="display-4">{frontmatter.title}</h1>
+                            <p className="mx-2">By {frontmatter.author}</p>
+                            <div className="my-5 mx-2">
+                                <ReactMarkdown className="article-container" source={markdownBody} />
+                            </div>
+                        </article>
+                    </Col>
+                </Row>
             </Container>
         </Layout>
     )
