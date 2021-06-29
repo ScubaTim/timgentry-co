@@ -9,4 +9,4 @@ tech: ['MongoDB', 'Mongoose', 'React', 'Express', 'Axios', 'Node', 'Heroku']
 ico: 📋
 ---
 
-Full stack app designed to assist backyard and hobbyist gardeners to keep track of what they've planted, as well as stats on how to take care of them. Gardenly will eventually include a publicly accessible API of plant data in future versions.
+TakeNote, my first publicly deployed full stack MERN app.

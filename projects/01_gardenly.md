@@ -4,9 +4,9 @@ author: 'Tim Gentry'
 imageLg: '/static/Gardenly1.png'
 smImages: ['/static/Gardenly2.png', '/static/Gardenly3.png']
 shortDesc: "Gardener's assistant app"
-tech: ['Bcrypt', 'JSON Web Tokens', 'MongoDB', 'Mongoose', 'React', 'Redux', 'Express', 'Axios', 'Node', 'Heroku']
-link: "http://garden-ly.herokuapp.com/"
+tech: ['React', 'Redux', 'JWT', 'localStorage', 'MongoDB Atlas', 'Mongoose', 'Node', 'Express', 'Heroku', 'Netlify']
+link: "https://gardenly.netlify.app/signin"
 ico: 🌱
 ---
 
-Full stack app designed to assist backyard and hobbyist gardeners to keep track of what they've planted, as well as stats on how to take care of them. Gardenly will eventually include a publicly accessible API of plant data in future versions.
+Full stack gardener's assistant and plant database designed for backyard and hobbyist gardeners. Gardenly keeps track of what is / isn't currently in your garden, as well as various statistics, care, and harvest instructions for each plant. Currently in development with periodic new features.

@@ -4,7 +4,7 @@ author: 'Tim Gentry'
 imageLg: '/static/corbetts1.png'
 smImages: ['/static/corbetts2.png', '/static/corbetts3.png']
 shortDesc: "Sports bar and grill"
-tech: ["React", "Jest", "Enzyme", "Axios", "Github-Pages"]
+tech: ["React", "Bootstrap", "Github-Pages"]
 link: "https://www.corbettssportsbarmiami.com/"
 ico: 🍻
 ---

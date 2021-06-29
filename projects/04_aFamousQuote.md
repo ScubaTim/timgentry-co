@@ -9,4 +9,4 @@ link: "https://scubatim.github.io/famous-quotes/"
 ico: ⭐
 ---
 
-Generates random quotes from famous people using the typefit API.
+Generates random quotes made by famous people using the typefit api.

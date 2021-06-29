@@ -10,7 +10,7 @@ const Bio = () => {
                     <Row className="pb-4">
                         <Col>
                             <h5 className="my-4 font-weight-bold">Tim Gentry</h5>
-                            <p>Full Stack software engineer with 3 years of development experience. I thrive on creatively solving problems to build solutions that are engaging to clients and effortless to use.</p>
+                            <p>Full Stack software engineer with almost 4 years of development experience. I thrive on creatively solving problems to build solutions that are engaging to clients and effortless to use.</p>
                             <p>Exceptional software development is the culmination of teamwork, enthusiasm, understanding, and an agile approach. Implementing solutions that are scalable and performant while exceeding the client's expectations should always be a project's focus.</p>
                         </Col>
                     </Row>
