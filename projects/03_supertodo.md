@@ -2,7 +2,7 @@
 title: 'Super-Todo'
 author: 'Tim Gentry'
 imageLg: '/static/SuperTodo1.png'
-smImages: ['/static/SuperTodo2.png', ''/static/SuperTodo3.png]
+smImages: ['/static/SuperTodo2.png', '/static/SuperTodo3.png]
 shortDesc: "MERN app with User Authentication"
 tech: ['React', 'Redux', 'JWT', 'localStorage', 'MongoDB Atlas', 'Mongoose', 'Node', 'Express', 'Heroku', 'Netlify']
 link: "https://super-todoapp.netlify.app/signin"
